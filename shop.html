@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopify Product Page Layout</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" />
+</head>
+
+<body>
+    <header>
+        <div id="top"></div>
+        <div class="header__navbar">
+            <div class="header__navbar-logo">
+                <a href="index.html"><img class="responsive" src="images/logo.png" alt="company logo"></a>
+            </div>
+            <nav class="header__navbar-nav">
+                <input type="checkbox" id="navToggle">
+                <label for="navToggle" class="nav-icon"><i class="fa fa-bars"></i></label>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li class="current-menu-item"><a href="shop.html">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header__navbar-cartlogin">
+                <ul class="cart-icons">
+                    <li><a href="#" class="cart-icon" title="View your Profile"> <i class="fa fa-user"></i></a></li>
+                    <li><a href="#" class="cart-icon" title="View your Wishlist"> <i class="fa fa-heart"></i></a></li>
+                    <li><a href="cart.html" class="cart-icon" title="View your Shopping Cart"> <i
+                                class="fa fa-shopping-bag"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Hero Banner -->
+        <section class="header__navbar-banner shop">
+            <p class="welcome">Welcome to CoffeeHouse</p>
+            <h1>Premium <br><span>Coffee</span> Market</h1>
+            <p>We've got quite the selection of coffee beans that are all roasted here in CoffeeHouse.<br>
+                You are sure to find something that suits your tastes! Happy browsing...</p>
+        </section>
+    </header>
+    <!-- Main Section -->
+    <main class="product_page">
+        <!-- Left Section -->
+        <aside class="main__categories">
+            <!-- Search -->
+            <label for="product-search">
+                <h4>Search</h4>
+            </label>
+            <input type="search" placeholder="Type here..." id="product-search" name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+            <!-- Product Categories -->
+            <h4>Product Categories</h4>
+            <ul class="categories">
+                <li><a href="#">Coffee Beans</a></li>
+                <li><a href="#">Kilogram Bags</a></li>
+                <li><a href="#">Subscription Service</a></li>
+                <li><a href="#">Home Brew Equipment</a></li>
+                <li><a href="#">Discount Bundles</a></li>
+                <li><a href="#">Gift Guide</a></li>
+                <li><a href="#">Gift Cards</a></li>
+            </ul>
+            <!-- Tags -->
+            <h4>Product Tags</h4>
+            <div class="tag-cloud">
+                <a href="#">arabica</a> <a href="#">light roast</a> <a href="#">single orgin</a> <a
+                    href="#">columbia</a> <a href="#">organic</a> <a href="#">ground coffee</a>
+            </div>
+        </aside>
+        <!-- Products Section -->
+        <div class="main__products-content">
+            <!-- Product Category 1 -->
+            <section class="main__products">
+                <h2><span>Light</span> Roast</h2>
+                <div class="main__products-box">
+                    <!-- Product -->
+                    <div class="main__products-card">
+                        <div class="product-image">
+                            <a href="#"><img class="responsive" src="images/product1.jpg" alt="coffee beans"></a>
+                        </div>
+                        <div class="product-info">
+                            <h5>Nicaragua 100% Arabica</h5>
+                            <div class="product-price">
+                                <h6>€17.99</h6>
+                                <p><a href="#">Add to cart</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Product -->
+                    <div class="main__products-card">
+                        <div class="product-image">
+                            <a href="#"><img class="responsive" src="images/product2.jpg" alt="coffee beans"></a>
+                        </div>
+                        <div class="product-info">
+                            <h5>Columbia Organic</h5>
+                            <div class="product-price">
+                                <h6>€18.99</h6>
+                                <p><a href="#">Add to cart</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Product -->
+                    <div class="main__products-card">
+                        <div class="product-image">
+                            <a href="#"><img class="responsive" src="images/product3.jpg" alt="coffee beans"></a>
+                        </div>
+                        <div class="product-info">
+                            <h5>Nicaragua 100% Arabica</h5>
+                            <div class="product-price">
+                                <h6>€17.99</h6>
+                                <p><a href="#">Add to cart</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Product -->
+                    <div class="main__products-card">
+                        <div class="product-image">
+                            <a href="#"><img class="responsive" src="images/product4.jpg" alt="coffee beans"></a>
+                        </div>
+                        <div class="product-info">
+                            <h5>Ethiopia Organic Mix</h5>
+                            <div class="product-price">
+                                <h6>€18.99</h6>
+                                <p><a href="#">Add to cart</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Product Category 2 -->
+            <section class="main__products">
+                <h2><span>Medium</span> Roast</h2>
+                <div class="main__products-box">
+                    <!-- Product -->
+                    <div class="main__products-card">
+                        <div class="product-image">
+                            <a href="#"><img class="responsive" src="images/product5.jpg" alt="coffee beans"></a>
+                        </div>
+                        <div class="product-info">
+                            <h5>Ethiopia Robusta</h5>
+                            <div class="product-price">
+                                <h6>€15.99</h6>
+                                <p><a href="#">Add to cart</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Product -->
+                    <div class="main__products-card">
+                        <div class="product-image">
+                            <a href="#"><img class="responsive" src="images/product6.jpg" alt="coffee beans"></a>
+                        </div>
+                        <div class="product-info">
+                            <h5>Nicaragua Traditional</h5>
+                            <div class="product-price">
+                                <h6>€16.99</h6>
+                                <p><a href="#">Add to cart</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Product -->
+                    <div class="main__products-card">
+                        <div class="product-image">
+                            <a href="#"><img class="responsive" src="images/product7.jpg" alt="coffee beans"></a>
+                        </div>
+                        <div class="product-info">
+                            <h5>Peru Whole Bean</h5>
+                            <div class="product-price">
+                                <h6>€18.99</h6>
+                                <p><a href="#">Add to cart</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Product -->
+                    <div class="main__products-card">
+                        <div class="product-image">
+                            <a href="#"><img class="responsive" src="images/product2.jpg" alt="coffee beans"></a>
+                        </div>
+                        <div class="product-info">
+                            <h5>Columbia Organic</h5>
+                            <div class="product-price">
+                                <h6>€18.99</h6>
+                                <p><a href="#">Add to cart</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Product Category 3 -->
+            <section class="main__products">
+                <h2><span>Dark</span> Roast</h2>
+                <div class="main__products-box">
+                    <!-- Product -->
+                    <div class="main__products-card">
+                        <div class="product-image">
+                            <a href="#"><img class="responsive" src="images/product4.jpg" alt="coffee beans"></a>
+                        </div>
+                        <div class="product-info">
+                            <h5>Ethiopia Organic</h5>
+                            <div class="product-price">
+                                <h6>€17.99</h6>
+                                <p><a href="#">Add to cart</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Product -->
+                    <div class="main__products-card">
+                        <div class="product-image">
+                            <a href="#"><img class="responsive" src="images/product3.jpg" alt="coffee beans"></a>
+                        </div>
+                        <div class="product-info">
+                            <h5>Nicaragua Organic</h5>
+                            <div class="product-price">
+                                <h6>€18.99</h6>
+                                <p><a href="#">Add to cart</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Product -->
+                    <div class="main__products-card">
+                        <div class="product-image">
+                            <a href="#"><img class="responsive" src="images/product1.jpg" alt="coffee beans"></a>
+                        </div>
+                        <div class="product-info">
+                            <h5>Nicaragua 100% Arabica</h5>
+                            <div class="product-price">
+                                <h6>€17.99</h6>
+                                <p><a href="#">Add to cart</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Product -->
+                    <div class="main__products-card">
+                        <div class="product-image">
+                            <a href="#"><img class="responsive" src="images/product5.jpg" alt="coffee beans"></a>
+                        </div>
+                        <div class="product-info">
+                            <h5>Ethiopia Organic Mix</h5>
+                            <div class="product-price">
+                                <h6>€18.99</h6>
+                                <p><a href="#">Add to cart</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <section class="footer__contact">
+                <div class="footer__contact-logo"><a href="index.html"><img class="logo responsive"
+                            src="images/green_logo.png" alt="company logo"></a></div>
+                <p>CoffeHouse is open every day <br>
+                    Monday - Sunday from 10 am to 5pm. <br>
+                    Including bank holidays.</p>
+                <ul class="footer__contact-address">
+                    <li><i class="fas fa-map-marker-alt"></i>Sample Address <br> &nbsp &nbsp &nbsp &nbsp &nbsp Limerick,
+                        Ireland</li>
+                    <li><i class="fas fa-phone-alt"></i><a href="tel://+353 61 123 123">+353 61 123 123</a></li>
+                    <li><i class="far fa-envelope"></i><a href="mailto: office@coffeehouse.ie">office@coffeehouse.ie</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="footer__links">
+                <div class="footer__links-useful">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer__links-locations">
+                    <h4>Other Locations</h4>
+                    <p class="title">Barista CoffeeShop</p>
+                    <p>Street<br>
+                        Birdhill, Co. Limerick
+                    </p>
+                    <p class="title">Coffee Market</p>
+                    <p>Street<br>
+                        Newport<br>
+                        Co. Tipperary
+                    </p>
+                </div>
+                <div class="footer__links-social">
+                    <h4>Follow Us</h4>
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook-f"></i>Facebook</a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i>Twitter</a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i>YouTube</a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i>Instagram</a></li>
+                        <li><a href="#"><i class="fab fa-pinterest-p"></i>Pinterest</a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i>Linkedin</a></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <section class="footer__copyright">
+            <p>© CoffeeHouse | All Rights Reserved</p>
+            <a href="#top" id="top-button"></a>
+        </section>
+    </footer>
+</body>
+
+</html>
